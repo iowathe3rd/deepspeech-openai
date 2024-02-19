@@ -1,22 +1,11 @@
 'use strict';
 
-import { Logger } from 'sitka';
-
-export class Example {
-	/* Private Instance Fields */
-
-	private _logger: Logger;
-
-	/* Constructor */
-
-	constructor() {
-		this._logger = Logger.getLogger({ name: this.constructor.name });
-	}
-
-	/* Public Instance Methods */
-
-	public exampleMethod(param: string): string {
-		this._logger.debug('Received: ' + param);
-		return param;
+export class Main {
+	public main() {
+		console.log("start")
 	}
 }
+
+// Создаем экземпляр класса и вызываем метод main
+const main = new Main();
+main.main();

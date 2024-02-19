@@ -59,6 +59,7 @@
     }
   },
   "dependencies": {
+    "naudiodon": "^2.3.6",
     "sitka": "^1.1.1"
   }
 }

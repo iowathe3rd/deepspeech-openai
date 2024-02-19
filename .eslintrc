@@ -9,6 +9,8 @@
 	],
 	"rules": {
 		"indent": ["error", "tab"],
-		"quotes": ["error", "single"]
+		"no-unused-vars": "warn",
+		"no-unused-labels": "warn",
+		"no-unused-expressions": "warn"
 	}
 }

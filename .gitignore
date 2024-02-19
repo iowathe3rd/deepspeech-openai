@@ -6,3 +6,12 @@ node_modules/
 
 # Project files:
 *.sublime-*
+
+.idea
+
+#env
+.env
+.env.*
+
+#system
+.DS_Store
