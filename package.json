@@ -61,7 +61,7 @@
   "dependencies": {
     "deepspeech": "^0.9.3",
     "dotenv": "^16.4.5",
-    "joi": "^17.12.1",
+    "joi": "^17.12.2",
     "naudiodon": "^2.3.6"
   }
 }
